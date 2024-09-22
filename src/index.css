@@ -1,0 +1,24 @@
+header {
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 15rem;
+    height: 20rem;
+}
+
+.btn {
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1.px;
+    margin-top: 25px;
+    cursor: pointer;
+}
